@@ -3,12 +3,12 @@
 /* global stuff */
 
   body {
-    font-size : 100%;
-    background-color : #1F2E66;
-    font-family : Georgia, 'Times New Roman', serif;
+    background-color : #F8F8F8;
+    font-family : Nunito;
+    font-size: 0.8em;
     line-height : 1.5;
     padding : 6vmax;
-    color: lightgrey;
+    color: #222;
   }
 
   .row { width : 100%; }
@@ -16,7 +16,7 @@
   .container {
     margin-left : auto;
     margin-right : auto;
-    max-width : 1000px;
+    max-width : 800px;
   }
 
 /* header */
@@ -28,23 +28,52 @@ header {
 /* main */
 
 main {
-
 }
 
 section {
   margin-bottom : 3vmax;
 }
 
+  #navbar {
+    float: right;
+  }
+
+  #navbar li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10;
+  }
+
+  #navbar li a:hover {
+    text-decoration: underline;
+  }
+
+  #navbar li a {
+    text-align: center;
+    text-decoration: none;
+    font-family : Roboto;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 120px;
+  }
+
+  .info {
+    font-size: 0.8em;
+  }
+
 /* typography */
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family : Helvetica, Arial, sans-serif;
+  h1, h2, h3, h4, h5, h6, strong {
+    font-family : Roboto;
     font-weight : bold;
-    color: white;
+    color: black;
   }
 
   h1 { font-size : 2em;     margin-bottom : 2vmax; margin-top : 5vmax;}
-  h2 { font-size : 1.5em;   margin-bottom : 1.5vmax; margin-top : 5vmax;}
+  h2 { text-align: center; font-size : 1.5em;   margin-bottom : 1.5vmax; margin-top : 5vmax;}
   h3 { font-size : 1.17em;  margin-bottom : 1.17vmax; }
   h4 { font-size : 1em;     margin-bottom : 1vmax; }
   h5 { font-size : .83em;   margin-bottom : .83vmax; }
@@ -53,10 +82,11 @@ section {
   p {
     padding : 0;
     margin : 0 0 2.5vmax 0;
+    max-width: 800px;
   }
 
   a:link, a:visited {
-    color: white;
+    color: inherit;
   }
 
   a:hover {
@@ -101,10 +131,6 @@ section {
   li {
     padding : 0;
     margin : 0 0 .5vmax 0;
-  }
-
-  strong {
-    color: white;
   }
 
   blockquote {
@@ -178,6 +204,7 @@ section {
     width: 100%;
     margin : 0 .25vmax 0 0;
     border: none;
+    border-radius: 5px;
     padding: 10px;
     background-color: #1F2E66;
     border-bottom: 3px solid;
@@ -194,6 +221,7 @@ section {
     height: 300px;
     margin : 0 0 1vmax 0;
     border: 3px solid white;
+    border-radius: 8px;
     background-color: #1F2E66;
     padding: 10px;
     outline: none
@@ -215,7 +243,6 @@ section {
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
   }
 
