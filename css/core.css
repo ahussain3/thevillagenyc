@@ -7,7 +7,7 @@
     font-family : Nunito;
     font-size: 0.8em;
     line-height : 1.5;
-    padding : 6vmax;
+    padding: 3vmax;
     color: #222;
   }
 
@@ -42,7 +42,6 @@ section {
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 0 20;
   }
 
   #navbar li a:hover {
