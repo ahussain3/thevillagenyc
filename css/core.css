@@ -97,7 +97,7 @@ section {
   }
 
   div.separator {
-    height: 100px;
+    height: 5vmax;
   }
 
   .video-container {
