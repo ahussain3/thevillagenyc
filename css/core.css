@@ -118,7 +118,7 @@ section {
 
   ul {
     list-style-type : disc;
-    margin : 0 0 1.5vmax 0;
+    margin : 0 0 1.5vmax 10px;
     padding : 0 0 0 1.5vmax;
   }
 
