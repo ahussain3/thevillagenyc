@@ -205,13 +205,13 @@ section {
     border: none;
     border-radius: 5px;
     padding: 10px;
-    background-color: #1F2E66;
+    background-color: lightgrey;
     border-bottom: 3px solid;
     outline: none;
   }
 
   input::placeholder {
-    color: lightgrey;
+    color: grey;
   }
 
   textarea {
@@ -221,13 +221,13 @@ section {
     margin : 0 0 1vmax 0;
     border: 3px solid white;
     border-radius: 8px;
-    background-color: #1F2E66;
+    background-color: lightgrey;
     padding: 10px;
     outline: none
   }
 
   textarea::placeholder {
-    color: lightgrey;
+    color: grey;
   }
 
   button {
@@ -236,7 +236,7 @@ section {
     border: 3px solid white;
     border-radius: 10px;
     padding: 10px;
-    background-color: #1F2E66;
+    background-color: grey;
     color: white;
     outline: none;
     text-align: center;
@@ -250,8 +250,8 @@ section {
   }
 
   button:hover {
-    background-color: white;
-    color: #1F2E66;
+    background-color: black;
+    color: lightgrey;
   }
 
   select {
